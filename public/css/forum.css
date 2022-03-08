@@ -1,0 +1,80 @@
+.btn {
+    letter-spacing: 1px;
+    background-color: #B99B5F
+}
+
+input,
+textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 0px !important;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px;
+    resize: none;
+    border-color: #B99B5F !important
+}
+
+select:focus,
+input:focus {
+    box-shadow: #B99B5F !important;
+    border: 1px solid #B99B5F !important;
+    outline-width: 0 !important;
+    font-weight: 400
+}
+
+label {
+    margin-bottom: 2px;
+    font-weight: bolder;
+    font-size: 14px
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #304FFE;
+    outline-width: 0
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.form-control {
+    height: calc(2em + .75rem + 3px)
+}
+
+.inner-card {
+    margin: 79px 0px 70px 0px
+}
+
+.card {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    width: 600px;
+
+}
+
+.card-1 {
+    border-radius: 17px;
+    color: black;
+    box-shadow: 2px 4px 15px 0px rgb(0, 0, 0, 0.5) !important
+}
+
+.color input {
+    background-color: #f1f1f1
+}
+
+.abcd{
+    display: -webkit-flex;
+    display: flex;
+}
